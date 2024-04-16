@@ -83,6 +83,7 @@ public class Main {
 			Div div = new Div();
 			if(b == 0) {
 				System.out.println("계산할 수 없습니다.");
+				break;
 			}
 			div.setValue(a, b);
 			System.out.println(div.calculate());
